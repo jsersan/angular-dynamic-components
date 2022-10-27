@@ -1,0 +1,59 @@
+{
+    "pageElements": [
+        {
+            "id": "projectTitle",
+            "name": "projectTitle",
+            "componentType": "label",
+            "visible": true,
+            "data": "Cargador dinámico de componentes",
+            "heading": true
+        },
+        {
+            "id": "projectDescription",
+            "name": "projectDescription",
+            "componentType": "label",
+            "visible": true,
+            "data": "Las plantillas de los componentes no siempre son fijas. Una aplicación puede necesitar cargar nuevos componentes en tiempo de ejecución. Este libro de recetas le muestra cómo añadir componentes dinámicamente.",
+            "heading": false
+        },
+        {
+            "id": "projectName",
+            "name": "projectName",
+            "componentType": "textbox",
+            "label": "Nombre del proyecto",
+            "placeholder": "Introduzca el nombre del nombre del proyecto",
+            "styleClass": "col-md-6 mt-3",
+            "visible": true,
+            "disabled": false,
+            "value": "app Angular de componentes dinámicos"
+        },
+        {
+            "id": "projectStatus",
+            "name": "projectStatus",
+            "componentType": "dropdown",
+            "label": "Project Status",
+            "styleClass": "col-md-6 mt-3",
+            "visible": true,
+            "disabled": false,
+            "value": "2",
+            "dropdownList": [
+                { "key": "1", "value": "No empezado" },
+                { "key": "2", "value": "Inicio" },
+                { "key": "3", "value": "En progreso" },
+                { "key": "4", "value": "En espera" },
+                { "key": "5", "value": "Completado" }
+            ]
+        },
+        {
+            "id": "projectApproved",
+            "name": "projectApproved",
+            "componentType": "checkbox",
+            "label": "El proyecto es válido para el negocio?",
+            "styleClass": "mt-3",
+            "labelClass": "ms-2",
+            "visible": true,
+            "disabled": true,
+            "value": true
+        }
+    ]
+}

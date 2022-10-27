@@ -1,0 +1,48 @@
+{
+    "pageElements": [
+        {
+            "id": "projectDetailTitle",
+            "name": "projectDetailTitle",
+            "componentType": "label",
+            "visible": true,
+            "data": "Cargador dinámico de componentes",
+            "heading": true
+        },
+        {
+            "id": "projectDetailDescription",
+            "name": "projectDetailDescription",
+            "componentType": "label",
+            "style": {"color": "red", "font-style": "italic" },
+            "visible": true,
+            "data": "Las plantillas de los componentes no siempre son fijas. Una aplicación puede necesitar cargar nuevos componentes en tiempo de ejecución. Este libro de recetas le muestra cómo añadir componentes dinámicamente.",
+            "heading": false
+        },
+        {
+            "id": "projectCloudTechnology",
+            "name": "projectCloudTechnology",
+            "componentType": "radio",
+            "label": "Tecnología de proyectos en la nube",
+            "styleClass": "mt-1",
+            "labelClass": "ms-2",
+            "value": "2",
+            "radioOptionList": [
+                { "key": "1", "value": "AWS" },
+                { "key": "2", "value": "MS Azure" },
+                { "key": "3", "value": "GCP" }
+            ],
+            "visible": true,
+            "disabled": false
+        },
+        {
+            "id": "projectFeedback",
+            "name": "projectFeedback",
+            "componentType": "textarea",
+            "label": "Project feedback",
+            "placeholder": "Este proyecto está desarrollado en angular V14",
+            "styleClass": "col-md-6 mt-3",
+            "rows": 5,
+            "visible": true,
+            "data": "Este proyecto está desarrollado en Angular v14"
+        }
+    ]
+}
